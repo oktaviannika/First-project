@@ -1,30 +1,24 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+.gradle
+.idea
+.studio
+*.ipr
+*.iml
+*.iws
+build
+deploy
+modules/*/build/*
+out
+test-run
 .DS_Store
+.java-version
+classes/*
+dataSources
+.ideaDataSources
+jacoco-report
+modules/core/src/com/yieldmo/ymcuba/version.properties
+modules/polymer-client/logs/
+studio-intellij.xml
+gradle.properties
+modules/cta-front/build-gradle/tmp/war/MANIFEST.MF
+modules/cta-front/build-gradle/libs/app-cta-front.war
+modules/cta-from/node-modules/
